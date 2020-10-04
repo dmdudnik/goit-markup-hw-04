@@ -347,7 +347,7 @@ body {
   align-items: center;
   width: 44px;
   height: 44px;
-  background: #ffffff; */
+  background: #ffffff;
   border-radius: 50%;
 }
 
@@ -523,7 +523,7 @@ body {
   border-radius: 50%;
 }
 
-.social-list-svg {
+.footer-svg {
   width: 20px;
   height: 20px;
   fill: var(--mine-background);
