@@ -14,7 +14,6 @@
   --accent-color: #2196f3;
   --mine-background: #ffffff;
   --secondary-background: #2f303a;
-  --third-background: #ffffff;
 }
 
 /* ======== INDEX.HTML ======== */
@@ -301,7 +300,7 @@ body {
 }
 
 .team-list-item {
-  background: var(--third-background);
+  background: var(--mine-background);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -593,10 +592,14 @@ body {
 .portfolio-list-item {
   width: 370px;
   height: 404px;
-  background: var(--third-background);
+  background: var(--mine-background);
   margin-bottom: 30px;
   box-sizing: border-box;
   border: 1px solid #eeeeee;
+}
+
+.portfolio-list-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-list-item:not(:nth-child(3n)) {
