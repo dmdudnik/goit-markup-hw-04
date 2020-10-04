@@ -119,28 +119,29 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: var(--mine-text-color);
+}
+
+.adress-icon {
+  margin-right: 10px;
+  fill: var(--mine-text-color);
 }
 
 .icon-mail-svg {
   width: 16px;
   height: 12px;
-  margin-right: 10px;
 }
 
 .icon-tel-svg {
   width: 10px;
   height: 16px;
-  margin-right: 10px;
 }
 
-.adress-list-link:hover,
-.adress-list-link:focus .icon-tel-svg {
+.adress-list-link:hover .adress-icon {
   fill: var(--accent-color);
 }
 
-.adress-list-link:hover,
-.adress-list-link:focus {
+.adress-list-link:hover {
   color: var(--accent-color);
 }
 
@@ -362,9 +363,79 @@ body {
 .social-list-svg {
   width: 20px;
   height: 20px;
+  fill: #afb1b8;
 }
 
 /* ======== END TEAM ======== */
+
+/* ======== CLIENTS ======== */
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients .title {
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-logo-svg {
+  fill: #afb1b8;
+}
+
+.logo-one {
+  width: 44px;
+  height: 49px;
+}
+
+.logo-two {
+  width: 40px;
+  height: 52px;
+}
+
+.logo-three {
+  width: 41px;
+  height: 43px;
+}
+
+.logo-four {
+  width: 80px;
+  height: 42px;
+}
+
+.logo-five {
+  width: 59px;
+  height: 47px;
+}
+
+.logo-six {
+  width: 89px;
+  height: 45px;
+}
+
+.clients-list-link:hover .clients-logo-svg {
+  fill: var(--accent-color);
+}
+
+.clients-list-link:hover {
+  border: 1px solid var(--accent-color);
+}
+
+/* ======== END CLIENTS ======== */
 
 /* ======== FOOTER ======== */
 .contact {
