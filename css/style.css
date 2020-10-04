@@ -300,7 +300,7 @@ body {
 }
 
 .team-list-item {
-  background: var(--mine-background);
+  background-color: var(--mine-background); */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -347,8 +347,14 @@ body {
   align-items: center;
   width: 44px;
   height: 44px;
-  background: #ffffff;
+  background: #ffffff; */
   border-radius: 50%;
+}
+
+.social-list-svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
 }
 
 .social-list-link:hover {
@@ -356,13 +362,7 @@ body {
 }
 
 .social-list-link:hover .social-list-svg {
-  fill: var(--secondary-text-color);
-}
-
-.social-list-svg {
-  width: 20px;
-  height: 20px;
-  fill: #afb1b8;
+  fill: var(--mine-background);
 }
 
 /* ======== END TEAM ======== */
