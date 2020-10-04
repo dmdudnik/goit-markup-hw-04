@@ -135,8 +135,12 @@ body {
 }
 
 .adress-list-link:hover,
-.adress-list-link:focus {
+.adress-list-link:focus .icon-tel-svg {
   fill: var(--accent-color);
+}
+
+.adress-list-link:hover,
+.adress-list-link:focus {
   color: var(--accent-color);
 }
 
@@ -293,7 +297,6 @@ body {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
 }
 
 .team-list-item {
@@ -302,8 +305,12 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team-list-content {
-  padding: 30px 58px;
+  padding: 30px 32px;
 }
 
 .team .title {
@@ -326,7 +333,37 @@ body {
   line-height: 1.188;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.social-list-link:hover {
+  background-color: var(--accent-color);
+}
+
+.social-list-link:hover .social-list-svg {
+  fill: var(--secondary-text-color);
+}
+
+.social-list-svg {
+  width: 20px;
+  height: 20px;
+}
+
 /* ======== END TEAM ======== */
 
 /* ======== FOOTER ======== */
