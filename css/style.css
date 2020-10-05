@@ -136,11 +136,13 @@ body {
   height: 16px;
 }
 
-.adress-list-link:hover .adress-icon {
+.adress-list-link:hover .adress-icon,
+.adress-list-link:focus .adress-icon {
   fill: var(--accent-color);
 }
 
-.adress-list-link:hover {
+.adress-list-link:hover,
+.adress-list-link:focus {
   color: var(--accent-color);
 }
 
