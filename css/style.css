@@ -430,11 +430,13 @@ body {
   height: 45px;
 }
 
-.clients-list-link:hover .clients-logo-svg {
+.clients-list-link:hover .clients-logo-svg,
+.clients-list-link:focus .clients-logo-svg {
   fill: var(--accent-color);
 }
 
-.clients-list-link:hover {
+.clients-list-link:hover,
+.clients-list-link:focus {
   border: 1px solid var(--accent-color);
 }
 
@@ -533,7 +535,8 @@ body {
   fill: var(--mine-background);
 }
 
-.footer-social-link:hover {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: var(--accent-color);
 }
 
