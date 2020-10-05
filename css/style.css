@@ -359,11 +359,13 @@ body {
   fill: #afb1b8;
 }
 
-.social-list-link:hover {
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: var(--accent-color);
 }
 
-.social-list-link:hover .social-list-svg {
+.social-list-link:hover .social-list-svg,
+.social-list-link:focus .social-list-svg {
   fill: var(--mine-background);
 }
 
